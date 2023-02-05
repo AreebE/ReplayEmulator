@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/total_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+>
+
+    <LinearLayout android:id="@+id/record_menu"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton android:id="@+id/record_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/record_button_color"
+            />
+
+        <ImageButton android:id="@+id/pause_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/stop_button_color"/>
+
+        <ImageButton android:id="@+id/play_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/playColor"/>
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/recording_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/recording_color"
+        android:visibility="invisible"/>
+
+
+</FrameLayout>
